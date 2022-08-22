@@ -24,7 +24,7 @@ describe('fastFoodQa', function() {
         // Pokrece se nakon svakog testa
     });
 
-    it("Verify homepage is open", async function(){
+    it("Verify homepage qa is open", async function(){
         await driver.get("http://test.qa.rs/");
         expect(await driver.getCurrentUrl()).to.eq("http://test.qa.rs/");
     })
